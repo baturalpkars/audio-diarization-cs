@@ -1,0 +1,17 @@
+bin/
+obj/
+*.user
+*.suo
+*.csproj.user
+
+# Local data & outputs
+data/
+runs/
+models/
+Models/
+eval_summary.json
+csharp_eval_cases.json
+csharp_test_*_segments.json
+
+# macOS
+.DS_Store
