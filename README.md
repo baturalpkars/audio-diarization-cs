@@ -2,6 +2,8 @@
 
 This repository contains a pure C# pipeline for offline speaker diarization and face–speaker alignment. It mirrors the NeMo diarization flow and the Python alignment logic used in the original project, while being deployable on-device without network access.
 
+**Python reference implementation:** [Audio_Diarization](https://github.com/baturalpkars/Audio_Diarization)
+
 ## Overview
 
 **Pipeline stages**
@@ -169,4 +171,3 @@ python "/Users/baturalpkarslioglu/Desktop/BK/Internship/Audio Diarization/script
 - ONNX diarization is offline and device‑local.
 - The C# alignment logic mirrors the Python implementation.
 - For production, keep `data/` and `runs/` out of Git (see `.gitignore`).
-
