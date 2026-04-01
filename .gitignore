@@ -9,6 +9,9 @@ data/
 runs/
 models/
 Models/
+!Models/
+!Models/*.onnx
+!Models/*.onnx.data
 eval_summary.json
 csharp_eval_cases.json
 csharp_test_*_segments.json
